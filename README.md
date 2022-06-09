@@ -1,2 +1,0 @@
-"# Voter-Calculator-" 
-"# Voter--Calculator" 
