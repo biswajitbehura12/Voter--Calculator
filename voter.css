@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    background-color: palevioletred;
+
+    
+}
+.voter_container{
+    background-image: url(https://image.shutterstock.com/image-photo/old-brick-black-color-wall-260nw-1605128917.jpg);
+background-size: cover;
+    height: 500px;
+    width: 1000px;
+    border: 10px solid red;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+}
+#voterresult{
+    height:70px;
+    width: 1000px;
+    color:aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#total{
+    height:70px;
+    width: 1000px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Bjp,.Congress,.Bjd{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    font-size: 30px;
+
+}
+#congress__vote,#bjp__vote,#bjd__vote{
+    border: 3px solid saddlebrown;
+    color:red;
+    background-color:burlywood;
+    font-size: larger;
+    cursor: pointer;
+
+}
+#bjpvote_display,#congress_vote_display,#bjdvote_display{
+    width: 100px;
+    background-color: aquamarine;
+    color: black;
+    font-size: 40px;
+    display: none;
+}
+#res{
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color: chartreuse;
+    color: black;
+    cursor: pointer;
+}
