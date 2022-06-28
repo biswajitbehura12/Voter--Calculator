@@ -2,9 +2,9 @@ let bjp__btn=document.getElementById("bjp__vote");
 let congress__btn=document.getElementById("congress__vote");
 let bjd__btn=document.getElementById("bjd__vote");
 
-let display__bjp=document.getElementById("bjpvote_display");
-let display__congress=document.getElementById("congress_vote_display");
-let display__bjd=document.getElementById("bjdvote_display");
+// let display__bjp=document.getElementById("bjpvote_display");
+// let display__congress=document.getElementById("congress_vote_display");
+// let display__bjd=document.getElementById("bjdvote_display");
 
 let finalresult=document.getElementById("res");
 let display__result=document.getElementById("voterresult");
@@ -16,13 +16,16 @@ var bjd=1;
 
 var totalsum=0;
 bjp__btn.addEventListener("click",()=>{
-    display__bjp.value = bjp++; 
+   
+     bjp++; 
 });
 congress__btn.addEventListener("click",()=>{
-    display__congress.value = congress++; 
+    
+     congress++; 
 });
 bjd__btn.addEventListener("click",()=>{
-    display__bjd.value = bjd++; 
+    
+     bjd++; 
 });
 finalresult.addEventListener("click",() =>{
     if(bjp>congress && bjp>bjd){
