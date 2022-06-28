@@ -8,71 +8,95 @@
 body{
     display: flex;
     justify-content: center;
-    padding-top: 50px;
-    background-color: palevioletred;
-
-    
+    background-color: grey;
 }
 .voter_container{
-    background-image: url(https://image.shutterstock.com/image-photo/old-brick-black-color-wall-260nw-1605128917.jpg);
+    background-image: url(https://ak.picdn.net/shutterstock/videos/11446151/thumb/1.jpg);
 background-size: cover;
-    height: 500px;
-    width: 1000px;
-    border: 10px solid red;
-    border-radius: 30px;
+    border: 7px solid rgb(19, 25, 29);
+    border-radius: 14px;
     display: flex;
     flex-direction: column;
     row-gap: 30px;
     align-items: center;
+     width: 700px;
 }
+
 #voterresult{
     height:70px;
-    width: 1000px;
-    color:aqua;
+    width: 600px;
+    color:rgb(3, 4, 15);
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
 
 }
 #total{
     height:70px;
-    width: 1000px;
     color:white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.container{
+    display: grid;
+    place-items: center;
+    background-color: rgb(12, 23, 24);
+    height: 300px;
+    width: 20rem;
+    border-radius: 9px;
+
+    
+}
 .Bjp,.Congress,.Bjd{
     height: 50px;
     display: flex;
-    justify-content: center;
-    column-gap: 30px;
-    font-size: 30px;
+    justify-content: space-around;
+    column-gap: 50px;
+    font-size: 25px;
+    border-radius: 10px;
 
+}
+.Congress{
+    margin-right: 4rem;
 }
 #congress__vote,#bjp__vote,#bjd__vote{
-    border: 3px solid saddlebrown;
-    color:red;
-    background-color:burlywood;
-    font-size: larger;
+    border: 3px solid rgb(210, 243, 243);
+    color:rgb(124, 228, 197);
+    background-color:rgb(101, 116, 108);
+    font-size: 20px;
     cursor: pointer;
+    border-radius: 7px;
+    width: 100px;
 
 }
-#bjpvote_display,#congress_vote_display,#bjdvote_display{
+#congress__vote:hover,#bjp__vote:hover,#bjd__vote:hover{
+    color: blanchedalmond;
+}
+/* #bjpvote_display,#congress_vote_display,#bjdvote_display{
     width: 100px;
     background-color: aquamarine;
-    color: black;
+    color: rgb(206, 252, 248);
     font-size: 40px;
     display: none;
-}
+} */
 #res{
-    height: 100px;
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    background-color: chartreuse;
-    color: black;
+    height:3rem;
+    width: 7rem    ;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(8, 120, 124);
+    color: rgb(52, 87, 85);
     cursor: pointer;
+    margin-bottom: 30px;
+    border-radius: 7px;
+    
 }
+#res:hover{
+    color:rgb(158, 150, 175) ;
+} 
